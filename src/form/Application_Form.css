@@ -1,0 +1,264 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-weight: 600;
+    background-color: black;
+}
+
+.design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 180px;
+}
+
+.image img {
+    height: 700px;
+    width: 100%;
+}
+
+.detail {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+
+}
+
+.detail h1 {
+    color: black;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.part1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.part1 h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.name1,
+.name2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.name1 {
+    margin-left: 80px;
+}
+
+.name2 {
+    margin-left: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    background-color: white;
+    height: 22px;
+    color: black;
+    outline: none;
+    border: 2px solid grey;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input[type="text"]:focus {
+    border: 2px solid orangered;
+}
+
+.address {
+    margin-left: 80px;
+}
+
+.address h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.address,
+[type="text"] {
+    width: 116%;
+    color: black;
+}
+
+.gender h3 {
+    color: black;
+    font-size: 0.9rem;
+    display: inline;
+    margin-left: 80px;
+
+}
+
+.gender {
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-left: 45px;
+    accent-color: orangered;
+    cursor: pointer;
+}
+
+.state {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.state h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.state1 {
+    margin-left: 80px;
+}
+
+.state1,
+.city {
+    width: 100%;
+}
+
+.city {
+    margin-left: 23px;
+}
+
+select[name="area"] {
+    width: 60%;
+    background-color: white;
+    height: 28px;
+    color: black;
+    outline: none;
+    border: 2px solid grey;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+select[name="area"]:focus {
+    border: 2px solid orangered;
+}
+
+.pincode {
+    margin-left: 80px;
+}
+
+.pincode h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.pincode,
+[type="text"] {
+    width: 116%;
+    color: black;
+    cursor: pointer;
+}
+
+.pincode2 {
+    margin-left: 80px;
+}
+
+.pincode2 h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.pincode2,
+select[name="area1"] {
+    width: 84%;
+    color: black;
+    background-color: white;
+    height: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+select[name="area1"]:focus {
+    border: 2px solid orangered;
+}
+
+.course {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.course h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.course,
+select[name="area2"] {
+    width: 84%;
+    color: black;
+    background-color: white;
+    height: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+select[name="area2"]:focus {
+    border: 2px solid orangered;
+}
+
+.email {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.email h3 {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.email,
+input[type="email"] {
+    width: 84%;
+    color: black;
+    background-color: white;
+    height: 22px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input[type="email"]:focus {
+    border: 2px solid orangered;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+    margin-right: 80px;
+}
+
+.btn1 {
+    height: 28px;
+    margin-right: 10px;
+    width: 100px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: gray;
+    color: white;
+}
+
+.btn2 {
+    height: 30px;
+    margin-right: 10px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    border: 2px solid orangered;
+    cursor: pointer;
+}
